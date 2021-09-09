@@ -6,4 +6,14 @@ Messing around with ahk, not going to be efficient or great. All of these script
 ## Minebot
 Will send assigned messages when a certain function key is pressed.
 
+
+
+
+
+## To Do
+- [ ] Make A GUI
+  - [ ] Add buttons
+    - [ ] Add text to the buttons
+    - [ ] Attach functions or scripts to the buttons
+    
 ![Message from the author](https://img.shields.io/badge/LemonIsAHe-random%20messages%20below-yellow)
