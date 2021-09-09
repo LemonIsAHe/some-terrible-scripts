@@ -48,6 +48,15 @@ SendInput up b max
 SendInput {Enter}
 return
 
+;always on top toggles with f11 (or it will at some point)
+/*
+F11::
+gui, submit, nohide
+	GuiControl,  -AlwaysOnTop, This Was Created By LemonIsAHe
+return
+
+*/
+
 ^x::ExitApp
 
 
