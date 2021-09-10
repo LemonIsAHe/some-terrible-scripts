@@ -12,17 +12,19 @@ SendMode Input
 SetWorkingDir %A_ScriptDir%
 #SingleInstance force
 
+Gui, Gui1:New
 Gui, +AlwaysOnTop
 Gui, Add, Button, x30 y20 w100 h50, Minebot Script
+Gui Flash
 Gui, Color, Black
 Gui, Show, w500 h500, This was created by LemonIsAHe 
+
+
+
+F1:: Loop 5{
+Gui, Gui1:Flash
+}
 return
-
-
-
-
-
-
 
 
 
