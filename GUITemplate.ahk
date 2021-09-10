@@ -14,12 +14,16 @@ SetWorkingDir %A_ScriptDir%
 
 Gui, Gui1:New
 Gui, +AlwaysOnTop
-Gui, Add, Button, x30 y20 w100 h50, Minebot Script
-Gui Flash
+Gui, Add, Button, gMineBot, MineBot Script
+GuiControl, Move, MineBot Script, x50 y20 w100 h50
 Gui, Color, Black
 Gui, Show, w500 h500, This was created by LemonIsAHe 
 
+return
 
+MineBot:
+Run www.google.com
+return
 
 F1:: Loop 5{
 Gui, Gui1:Flash
